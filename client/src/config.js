@@ -1,6 +1,6 @@
-const base = "http://localhost:5000";
+const base = "/";
 const config = {
-  base: "/",
+  base: base ,
   api: {
     login: `${base}/api/user/login`,
     signup: `${base}/api/user/signup`,
